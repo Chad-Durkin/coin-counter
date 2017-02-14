@@ -1,0 +1,8 @@
+@{
+    Layout="Shared/_Layout.cshtml";
+}
+
+@foreach(var coin in Model)
+{
+    <h1>You would have @coin.Value @coin.Key 's</h1>
+}
